@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    build: .
+    environment:
+      - NOTION_PAGE_ID=216e152215f04a57a9a2ca58260c0cbc
+    ports:
+      - "3000:3000"
